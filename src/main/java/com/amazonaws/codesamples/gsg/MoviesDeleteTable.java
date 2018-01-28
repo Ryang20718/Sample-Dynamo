@@ -14,8 +14,8 @@ public class MoviesDeleteTable {
 
     public static void main(String[] args) throws Exception {
 
-        String accessKey = "AKIAJUBBJKBDBOCKMXVQ";
-        String secretKey = "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";
+        String accessKey = "";
+        String secretKey = "";
         BasicAWSCredentials credentials = new BasicAWSCredentials(accessKey, secretKey);
         AWSStaticCredentialsProvider provider = new AWSStaticCredentialsProvider(credentials);
         AmazonDynamoDB ddb = AmazonDynamoDBClientBuilder.standard()
