@@ -24,8 +24,8 @@ import com.amazonaws.services.dynamodbv2.model.ScalarAttributeType;
 public class MoviesCreateTable {
 
     public static void main(String[] args) throws Exception {
-        String accessKey = "AKIAJUBBJKBDBOCKMXVQ";
-        String secretKey = "M1cGytF3M9dpO25DOUHH9G6pVQY+IJpt06onGdWp";
+        String accessKey = "Insert Your KEy Here";
+        String secretKey = "Insert Your Key Here";
         BasicAWSCredentials credentials = new BasicAWSCredentials(accessKey, secretKey);
         AWSStaticCredentialsProvider provider = new AWSStaticCredentialsProvider(credentials);
         AmazonDynamoDB ddb = AmazonDynamoDBClientBuilder.standard()
