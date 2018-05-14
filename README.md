@@ -1,6 +1,6 @@
 # Sample-Dynamo
 
-### Test Code for Dynamo DB Table
+### Test Functions for Dynamo DB Table
 Functions for java to read,write,query,search, and delete for a dynamo table
 Amazon AWS Services
 
