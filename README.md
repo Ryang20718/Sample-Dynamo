@@ -1,4 +1,4 @@
-# Sample-Dynamo
+## Sample-Dynamo
 
 ### Test Functions for Dynamo DB Table
 Functions for java to read,write,query,search, and delete for a dynamo table
